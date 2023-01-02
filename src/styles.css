@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block .card {
+    margin-right: 10%;
+}
+
+.block div {
+    margin-right: 3%;
+}
+
+.card {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image img {
+    height: 150px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 50%;
+
+}
+
+.card-content div {
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.pokemon-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+span {
+    text-align: center;
+}
