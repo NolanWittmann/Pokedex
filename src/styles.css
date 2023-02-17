@@ -55,3 +55,65 @@ h1 {
 span {
     text-align: center;
 }
+
+.card_pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_detail {
+    display: flex;
+    width: 50%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.94)
+}
+
+.card_img {
+    align-self: center;
+}
+
+table {
+    margin: 15px;
+}
+
+tr {
+    font-weight: bold;
+}
+
+.border_top {
+    background-color: rgba(219, 217, 213, 0.833);
+}
+
+.tr_mid {
+    background-color: rgba(219, 217, 213, 0.833);
+}
+
+.border_bot {
+    background-color: rgba(219, 217, 213, 0.833);
+}
+
+.back_button {
+    display: flex;
+    align-items: end;
+}
+
+.back_button a {
+    background-color: rgba(166, 166, 155, 0.833);
+    /* couleur de fond */
+    color: white;
+    /* couleur du texte */
+    padding: 8px;
+    /* espacement intérieur du bouton */
+    border: none;
+    /* pas de bordure */
+    border-radius: 4px;
+    /* arrondi des coins */
+    text-align: center;
+    /* centrage du texte */
+    text-decoration: none;
+    /* pas de soulignement */
+    font-size: 16px;
+    /* taille du texte */
+    margin: 15px 0px 5px 0px;
+}

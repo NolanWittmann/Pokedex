@@ -1,24 +1,9 @@
-<h1>Pokémons</h1>
-
-<div class="block">
-    <div *ngFor="let pokemon of pokemons">
-        <div class="card" pkmnBorderCard>
-            <div class="card-image">
-                <img [src]="pokemon.picture" [alt]="pokemon.name">
-            </div>
-            <div class="card-content">
-                <div class="pokemon-name">
-                    {{ pokemon.name }}
-                </div>
-                <div>
-                    <small>
-                        {{ pokemon.created | date:"dd/MM/yyyy"}}
-                    </small>
-                </div>
-                <span *ngFor="let currentType of pokemon.types" class="{{currentType | pokemonTypeColor }}">
-                    {{currentType}}
-                </span>
-            </div>
-        </div>
+<nav>
+    <div class="nav-wrapper teal">
+        <a href="#" class="brand-logo center">
+            Pokédex
+        </a>
     </div>
-</div>
+</nav>
+
+<router-outlet></router-outlet>
